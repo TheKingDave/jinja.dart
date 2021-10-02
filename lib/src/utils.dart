@@ -7,8 +7,6 @@ Iterable<int> range(int n) sync* {
 }
 
 bool toBool(Object? value) {
-  assert(value != null);
-
   if (value is Undefined || value == null) {
     return false;
   }

@@ -1,3 +1,10 @@
+# HOTFIX
+
+This is only a hotfix for a small bug in version `0.3.4`.
+
+bug:
+`toBool` asserts that input is not null, what should actually be a 'falsy' value and return `Undefined`/nothing
+
 # Jinja for Dart
 
 [![Pub](https://img.shields.io/pub/v/jinja.svg)](https://pub.dev/packages/jinja)
